@@ -1,0 +1,41 @@
+{
+  "initialStats": [
+    {
+      "id": "overall-progress",
+      "value": "78.65%",
+      "label": "Overall Progress",
+      "iconKey": "chart"
+    },
+    {
+      "id": "total-criteria",
+      "value": 95,
+      "label": "Total Criteria",
+      "iconKey": "folder"
+    },
+    {
+      "id": "completed-criteria",
+      "value": 52,
+      "label": "Completed Criteria",
+      "iconKey": "folder-check"
+    },
+    {
+      "id": "evidence-documents",
+      "value": 386,
+      "label": "Evidence Documents",
+      "iconKey": "file-lock"
+    },
+    {
+      "id": "evidence-completed",
+      "value": 302,
+      "label": "Evidence (Completed)",
+      "iconKey": "file-check"
+    },
+    {
+      "id": "uploaded-to-dga",
+      "value": 258,
+      "label": "Uploaded To DGA",
+      "iconKey": "file-upload"
+    }
+  ]
+}
+

@@ -1,0 +1,8 @@
+.timelineContainer {
+  --progress-width: 0%;
+}
+
+.timelineProgress {
+  width: var(--progress-width);
+}
+

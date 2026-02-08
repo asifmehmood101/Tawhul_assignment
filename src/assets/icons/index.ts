@@ -1,0 +1,33 @@
+import { BellIcon } from "@/assets/icons/BellIcon";
+import { ChartIcon } from "@/assets/icons/ChartIcon";
+import { ClipboardIcon } from "@/assets/icons/ClipboardIcon";
+import { CloseIcon } from "@/assets/icons/CloseIcon";
+import { DocumentIcon } from "@/assets/icons/DocumentIcon";
+import { DocumentBookmarkIcon } from "@/assets/icons/DocumentBookmarkIcon";
+import { DocumentCheckIcon } from "@/assets/icons/DocumentCheckIcon";
+import { DocumentEditIcon } from "@/assets/icons/DocumentEditIcon";
+import { DocumentFlagIcon } from "@/assets/icons/DocumentFlagIcon";
+import { DocumentTagIcon } from "@/assets/icons/DocumentTagIcon";
+import { DownArrowIcon } from "@/assets/icons/DownArrowIcon";
+import { ErrorIcon } from "@/assets/icons/ErrorIcon";
+import { FileTextIcon } from "@/assets/icons/FileTextIcon";
+import { FileCheckIcon } from "@/assets/icons/FileCheckIcon";
+import { FileLockIcon } from "@/assets/icons/FileLockIcon";
+import { FileSearchIcon } from "@/assets/icons/FileSearchIcon";
+import { FileStackIcon } from "@/assets/icons/FileStackIcon";
+import { FileUploadIcon } from "@/assets/icons/FileUploadIcon";
+import { FolderIcon } from "@/assets/icons/FolderIcon";
+import { FolderCheckIcon } from "@/assets/icons/FolderCheckIcon";
+import { HomeIcon } from "@/assets/icons/HomeIcon";
+import { LeftArrowIcon } from "@/assets/icons/LeftArrowIcon";
+import { MenuIcon } from "@/assets/icons/MenuIcon";
+import { ReportsIcon } from "@/assets/icons/ReportsIcon";
+import { SearchIcon } from "@/assets/icons/SearchIcon";
+import { SendIcon } from "@/assets/icons/SendIcon";
+import { SortIcon } from "@/assets/icons/SortIcon";
+import { TaskIcon } from "@/assets/icons/TaskIcon";
+import { ToggleIcon } from "@/assets/icons/ToggleIcon";
+import { UserIcon } from "@/assets/icons/UserIcon";
+
+export { BellIcon, ChartIcon, ClipboardIcon, CloseIcon, DocumentIcon, DocumentBookmarkIcon, DocumentCheckIcon, DocumentEditIcon, DocumentFlagIcon, DocumentTagIcon, DownArrowIcon, ErrorIcon, FileTextIcon, FileCheckIcon, FileLockIcon, FileSearchIcon, FileStackIcon, FileUploadIcon, FolderIcon, FolderCheckIcon, HomeIcon, LeftArrowIcon, MenuIcon, ReportsIcon, SearchIcon, SendIcon, SortIcon, TaskIcon, ToggleIcon, UserIcon };
+

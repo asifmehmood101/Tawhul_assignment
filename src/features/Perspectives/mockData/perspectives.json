@@ -1,0 +1,148 @@
+{
+  "evidenceStatsMockData": [
+    {
+      "id": "total-evidence",
+      "value": 4,
+      "label": "Total Evidence",
+      "icon": null
+    },
+    {
+      "id": "under-review-evidence",
+      "value": 3,
+      "label": "Under Review Evidence",
+      "icon": null
+    },
+    {
+      "id": "in-progress-evidence",
+      "value": 2,
+      "label": "In Progress Evidence",
+      "icon": null
+    },
+    {
+      "id": "completed-evidence",
+      "value": 1,
+      "label": "Completed Evidence",
+      "icon": null
+    }
+  ],
+  "overviewDetailItems": [
+    {
+      "label": "Objective",
+      "content": "Develop A Digital Transformation Strategy Aligned With The Organization's Strategy And The Objectives Of Saudi Vision 2030.",
+      "contentType": "string"
+    },
+    {
+      "label": "Implementation Requirements",
+      "contentType": "jsx",
+      "content": {
+        "type": "fragment",
+        "children": [
+          {
+            "type": "p",
+            "text": "Prepare A Digital Transformation Strategy For The Transition To Electronic Government Transactions, Including The Following:"
+          },
+          {
+            "type": "ul",
+            "className": "list-disc ml-5 mt-2 space-y-1",
+            "items": [
+              "The Organization's Vision, Mission, Strategic Pillars.",
+              "Strategic Initiatives, Programs, And KPIs.",
+              "Integration With Relevant External Entities.",
+              "Required Competencies And Capabilities."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "Evidence Documents",
+      "content": "Submit The Approved Digital Transformation Strategy That Includes All Requirements Of This Standard.",
+      "contentType": "string"
+    },
+    {
+      "label": "Related Regulations",
+      "content": "Council Of Ministers Resolution No. (40) Dated 27/2/1427H, Clause (16).",
+      "contentType": "string"
+    },
+    {
+      "label": "Scope",
+      "content": "All Government Entities.",
+      "contentType": "string"
+    }
+  ],
+  "overviewLeaders": [
+    {
+      "id": "1",
+      "name": "Ahmed Al-Ali",
+      "subtitle": "Strategy Perspective",
+      "avatarUrl": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "id": "2",
+      "name": "Ahmed Al-Ali",
+      "subtitle": "Strategy Perspective",
+      "avatarUrl": "https://i.pravatar.cc/150?img=12"
+    }
+  ],
+  "documentTableData": [
+    {
+      "number": "5.4.1.1",
+      "name": "Digital_Transformation_Plan.pdf",
+      "lead": "Ahmed Khaled",
+      "preparer": "Ahmed Khaled",
+      "date": "2025-08-01",
+      "dueDate": "2025-08-01",
+      "status": "approved"
+    },
+    {
+      "number": "5.4.1.2",
+      "name": "KPI_Framework.xlsx",
+      "lead": "Mona Hamed",
+      "preparer": "Mona Hamed",
+      "date": "2025-08-01",
+      "dueDate": "2025-08-01",
+      "status": "pending"
+    }
+  ],
+  "commentsData": [
+    {
+      "id": "1",
+      "author": "Ahmed Khaled",
+      "message": "The digital transformation strategy looks comprehensive. We should focus on implementing the KPI framework first.",
+      "date": "2025-01-15"
+    },
+    {
+      "id": "2",
+      "author": "Mona Hamed",
+      "message": "I agree. The timeline seems realistic. Let's schedule a meeting to discuss the implementation requirements.",
+      "date": "2025-01-16"
+    },
+    {
+      "id": "3",
+      "author": "Sara Ali",
+      "message": "Great progress! The evidence documents are well organized. Looking forward to the next phase.",
+      "date": "2025-01-17"
+    }
+  ],
+  "activitiesData": [
+    {
+      "id": "1",
+      "title": "Roadmap_Version1.Docx Uploaded",
+      "description": "Uploaded By Rami AlSharif",
+      "timeAgo": "5 Mins Ago"
+    },
+    {
+      "id": "2",
+      "title": "Evidence uploaded",
+      "description": "Customer satisfaction survey evidence has been uploaded to the system",
+      "timeAgo": "20 Mins Ago"
+    },
+    {
+      "id": "3",
+      "title": "New audit report submitted",
+      "description": "Financial perspective audit report has been completed and submitted",
+      "timeAgo": "1 Hour Ago"
+    }
+  ]
+}
+

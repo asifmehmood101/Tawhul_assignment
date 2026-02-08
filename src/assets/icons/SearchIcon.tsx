@@ -1,0 +1,16 @@
+import type { IconProps } from "@/@types/iconsTypes"
+
+export const SearchIcon = ({size=16,color="#8597A8", className, ...props}: IconProps) => {
+    return <svg width={size} height={size} viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" className={className} {...props}>
+<g clip-path="url(#clip0_300_94)">
+<path d="M11.6667 11.6667L14.6667 14.6667M13.3333 7.33337C13.3333 5.74208 12.7012 4.21595 11.576 3.09073C10.4508 1.96551 8.92464 1.33337 7.33334 1.33337C5.74204 1.33337 4.21592 1.96551 3.0907 3.09073C1.96548 4.21595 1.33334 5.74208 1.33334 7.33337C1.33334 8.92467 1.96548 10.4508 3.0907 11.576C4.21592 12.7012 5.74204 13.3334 7.33334 13.3334C8.92464 13.3334 10.4508 12.7012 11.576 11.576C12.7012 10.4508 13.3333 8.92467 13.3333 7.33337Z" stroke={color} stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_300_94">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
+
+}

@@ -1,0 +1,371 @@
+{
+  "mockLeaders": [
+    {
+      "id": "1",
+      "name": "Ahmed Al-Mansoori",
+      "perspective": "Financial",
+      "score": 95,
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ahmed"
+    },
+    {
+      "id": "2",
+      "name": "Fatima Al-Zahra",
+      "perspective": "Customer",
+      "score": 92,
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Fatima"
+    },
+    {
+      "id": "3",
+      "name": "Mohammed Al-Hashimi",
+      "perspective": "Internal Process",
+      "score": 88,
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mohammed"
+    },
+    {
+      "id": "4",
+      "name": "Sara Al-Kaabi",
+      "perspective": "Learning & Growth",
+      "score": 85,
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sara"
+    },
+    {
+      "id": "5",
+      "name": "Khalid Al-Suwaidi",
+      "perspective": "Financial",
+      "score": 82,
+      "avatarUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Khalid"
+    }
+  ],
+  "mockActivities": [
+    {
+      "id": "1",
+      "title": "New audit report submitted",
+      "description": "Financial perspective audit report has been completed and submitted",
+      "timeAgo": "2 hours ago"
+    },
+    {
+      "id": "2",
+      "title": "Evidence uploaded",
+      "description": "Customer satisfaction survey evidence has been uploaded to the system",
+      "timeAgo": "5 hours ago"
+    },
+    {
+      "id": "3",
+      "title": "Standard compliance updated",
+      "description": "ISO 9001 compliance status has been updated for Internal Process perspective",
+      "timeAgo": "1 day ago"
+    },
+    {
+      "id": "4",
+      "title": "Training session completed",
+      "description": "Learning & Growth perspective training session has been completed",
+      "timeAgo": "2 days ago"
+    },
+    {
+      "id": "5",
+      "title": "Performance review scheduled",
+      "description": "Quarterly performance review has been scheduled for all perspectives",
+      "timeAgo": "3 days ago"
+    }
+  ],
+  "mockMonthlyPerformance": [
+    { "month": "Jan", "value": 72 },
+    { "month": "Feb", "value": 75 },
+    { "month": "Mar", "value": 78 },
+    { "month": "Apr", "value": 80 },
+    { "month": "May", "value": 82 },
+    { "month": "Jun", "value": 85 },
+    { "month": "Jul", "value": 83 },
+    { "month": "Aug", "value": 87 },
+    { "month": "Sep", "value": 89 },
+    { "month": "Oct", "value": 88 },
+    { "month": "Nov", "value": 90 },
+    { "month": "Dec", "value": 92 }
+  ],
+  "mockProgressColumns": [
+    {
+      "id": "1",
+      "title": "Strategy And Planning",
+      "percentage": 97.78,
+      "groups": [
+        {
+          "id": "g1",
+          "title": "Digital Transformation",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "completed" },
+            { "number": 3, "status": "completed" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Organization And Culture",
+      "percentage": 70.83,
+      "groups": [
+        {
+          "id": "g2",
+          "title": "Digital Culture And Environment",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "in_progress" },
+            { "number": 3, "status": "completed" }
+          ]
+        },
+        {
+          "id": "g3",
+          "title": "Leadership Development",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "completed" },
+            { "number": 3, "status": "completed" },
+            { "number": 4, "status": "completed" }
+          ]
+        },
+        {
+          "id": "g4",
+          "title": "Skills & Capacity Building",
+          "items": [
+            { "number": 1, "status": "in_progress" },
+            { "number": 2, "status": "in_progress" },
+            { "number": 3, "status": "in_progress" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Operations And Execution",
+      "percentage": 80.00,
+      "groups": [
+        {
+          "id": "g5",
+          "title": "Business Processes",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "in_progress" },
+            { "number": 3, "status": "in_progress" },
+            { "number": 4, "status": "completed" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Business Continuity",
+      "percentage": 90.59,
+      "groups": [
+        {
+          "id": "g6",
+          "title": "Risk Management",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "completed" },
+            { "number": 3, "status": "completed" },
+            { "number": 4, "status": "completed" },
+            { "number": 5, "status": "completed" }
+          ]
+        },
+        {
+          "id": "g7",
+          "title": "Business Continuity",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "not_started" },
+            { "number": 3, "status": "not_started" },
+            { "number": 4, "status": "completed" },
+            { "number": 5, "status": "completed" },
+            { "number": 6, "status": "not_started" },
+            { "number": 7, "status": "completed" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Information Technology",
+      "percentage": 75.00,
+      "groups": [
+        {
+          "id": "g8",
+          "title": "Support Systems",
+          "items": [
+            { "number": 1, "status": "partially_uploaded" },
+            { "number": 2, "status": "completed" },
+            { "number": 3, "status": "completed" },
+            { "number": 4, "status": "completed" },
+            { "number": 5, "status": "completed" }
+          ]
+        },
+        {
+          "id": "g9",
+          "title": "IT Infrastructure",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "completed" },
+            { "number": 3, "status": "completed" },
+            { "number": 4, "status": "completed" },
+            { "number": 5, "status": "partially_uploaded" },
+            { "number": 6, "status": "completed" },
+            { "number": 7, "status": "completed" }
+          ]
+        },
+        {
+          "id": "g10",
+          "title": "Cloud Infrastructure",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "completed" },
+            { "number": 3, "status": "partially_uploaded" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Comprehensive Governance",
+      "percentage": 64.44,
+      "groups": [
+        {
+          "id": "g11",
+          "title": "Governance Platforms",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "completed" },
+            { "number": 3, "status": "completed" },
+            { "number": 4, "status": "not_started" },
+            { "number": 5, "status": "completed" },
+            { "number": 6, "status": "completed" },
+            { "number": 7, "status": "completed" },
+            { "number": 8, "status": "completed" },
+            { "number": 9, "status": "completed" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Channels And Services",
+      "percentage": 100.00,
+      "groups": [
+        {
+          "id": "g12",
+          "title": "Service Quality",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "completed" },
+            { "number": 3, "status": "completed" }
+          ]
+        },
+        {
+          "id": "g13",
+          "title": "Digital Channels",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "completed" },
+            { "number": 3, "status": "completed" },
+            { "number": 4, "status": "completed" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Beneficiary Centralization",
+      "percentage": 60.00,
+      "groups": [
+        {
+          "id": "g14",
+          "title": "User Engagement",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "in_progress" },
+            { "number": 3, "status": "in_progress" },
+            { "number": 4, "status": "in_progress" }
+          ]
+        },
+        {
+          "id": "g15",
+          "title": "User Relationship",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "in_progress" },
+            { "number": 3, "status": "in_progress" }
+          ]
+        },
+        {
+          "id": "g16",
+          "title": "User Experience",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "in_progress" },
+            { "number": 3, "status": "completed" },
+            { "number": 4, "status": "in_progress" },
+            { "number": 5, "status": "completed" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Government Data",
+      "percentage": 87.50,
+      "groups": [
+        {
+          "id": "g17",
+          "title": "Data Governance",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "in_progress" },
+            { "number": 3, "status": "in_progress" }
+          ]
+        },
+        {
+          "id": "g18",
+          "title": "Data Usage & Availability",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "in_progress" },
+            { "number": 3, "status": "in_progress" }
+          ]
+        },
+        {
+          "id": "g19",
+          "title": "Open Data",
+          "items": [
+            { "number": 1, "status": "completed" },
+            { "number": 2, "status": "completed" },
+            { "number": 3, "status": "in_progress" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Research And Innovation",
+      "percentage": 17.65,
+      "groups": [
+        {
+          "id": "g20",
+          "title": "Innovation",
+          "items": [
+            { "number": 1, "status": "delayed" },
+            { "number": 2, "status": "delayed" },
+            { "number": 3, "status": "delayed" },
+            { "number": 4, "status": "delayed" }
+          ]
+        },
+        {
+          "id": "g21",
+          "title": "Creative Solutions",
+          "items": [
+            { "number": 1, "status": "in_progress" },
+            { "number": 2, "status": "delayed" }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
