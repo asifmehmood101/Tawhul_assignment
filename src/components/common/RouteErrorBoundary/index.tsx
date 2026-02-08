@@ -1,5 +1,5 @@
-import errorImage from "@/assets/images/error.svg";
 import { isRouteErrorResponse, useRouteError } from "react-router-dom";
+import errorImage from "../../../assets/images/error.svg";
 
 export default function RouteErrorBoundary() {
   const error = useRouteError();

@@ -1,8 +1,8 @@
 import { ClipboardIcon, CloseIcon, FileTextIcon, HomeIcon, ReportsIcon, TaskIcon, ToggleIcon, UserIcon } from "@/assets/icons";
-import logo from "@/assets/images/logo.svg";
 import { useToggle } from "@/hooks/useToggle";
+import { useCallback, useEffect, useRef } from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import { useEffect, useRef, useCallback } from "react";
+import logo from "../../assets/images/logo.svg";
 
 const menuItems = [
   { name: "Dashboard", path: "/", icon: HomeIcon },
