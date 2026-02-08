@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
 import { type TimelineEvent } from "@/features/Dashboard/component/Timeline";
+import { useEffect, useState } from "react";
 
 const initialEvents: TimelineEvent[] = [
   { id: "1", date: "Mar 17", label: "Kickoff Workshop", isCompleted: true },
@@ -12,7 +12,7 @@ const initialEvents: TimelineEvent[] = [
 
 export const useTimeline = () => {
   const [events, setEvents] = useState<TimelineEvent[]>(initialEvents);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, _setIsLoading] = useState(false);
 
   // This hook can be extended to fetch data from an API
   useEffect(() => {
